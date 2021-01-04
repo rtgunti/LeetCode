@@ -1,6 +1,5 @@
 # Definition for singly-linked list.
 import random
-from typing import List
 
 
 class ListNode:
