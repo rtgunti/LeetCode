@@ -1,5 +1,6 @@
 # Definition for singly-linked list.
 import random
+from typing import List
 
 
 class ListNode:
@@ -52,13 +53,13 @@ class Solution:
                 # l2 = l2.next
                 print("Inserted l1 into l2")
                 self.print_list(l2)
-        print("--Done While--")
-        print("Head")
-        self.print_list(head)
-        print("l1")
-        self.print_list(l1)
-        print("l2")
-        self.print_list(l2)
+        # print("--Done While--")
+        # print("Head")
+        # self.print_list(head)
+        # print("l1")
+        # self.print_list(l1)
+        # print("l2")
+        # self.print_list(l2)
         # Both lists have one element
         if (not (l1.next or l2.next)):
             if l1.val <= l2.val:
